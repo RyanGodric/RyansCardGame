@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT cards (*card)>
+
+     
+<!ELEMENT card (name, faction, points, effect)>
+ 
+<!ATTLIST card xml:id CDATA #REQUIRED > 
+<!ELEMENT name (#PCDATA) >
+ 
+<!ELEMENT faction (#PCDATA) >
+            
+<!ELEMENT points (#PCDATA) >
+            
+<!ELEMENT effect (#PCDATA) >
+      
+
+  
